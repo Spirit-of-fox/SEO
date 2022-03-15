@@ -1,0 +1,36 @@
+@media (max-width: 480px) {
+    .header {
+        padding-top: 25px;
+    }
+    .logo {
+        display: none;
+    }
+    .top {
+        background-position: top right;
+    }
+    .top__text {
+        font-weight: 700;
+        color: #234155;
+    }
+    .portfolio__inner,
+    .snippets__inner {
+        flex-direction: column;
+        align-items: center;
+    }
+    .snippets__item+.snippets__item {
+        margin-top: 30px;
+    }
+    .portfolio__block {
+        margin-top: 50px;
+    }
+    .about {
+        text-align: center;
+    }
+    .about__inner {
+        flex-direction: column;
+        align-items: center;
+    }
+    .about__item+.about__item {
+        margin-top: 20px;
+    }
+}
